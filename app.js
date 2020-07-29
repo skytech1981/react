@@ -7,7 +7,7 @@ class App extends React.Component {
         <Bo2 />
         <Bo3 />
         <Bo4 />
-            </div>
+     </div>
     );
   }
 }
@@ -20,7 +20,7 @@ class Bo1 extends React.Component {
 
         return (
           <div style={{backgroundColor:'lightgreen'}}className="box">
-            <p style={{color:'black'}}> Fresh </p>
+            <p style={{color:'black'},{fontSize:'17px'}}> Fresh </p>
             </div>
       );
     }
@@ -33,7 +33,7 @@ class Bo1 extends React.Component {
     render() {
           return (
             <div style={{backgroundColor:'lightblue'}}className="box">
-            <p style={{color:'black'}}> Calm </p>
+            <p style={{color:'black'},{fontSize:'17px'}}> Calm </p>
             </div>
         );
       }
@@ -43,7 +43,7 @@ class Bo1 extends React.Component {
       render() {
             return (
               <div style={{backgroundColor:'lightpink'}}className="box">
-            <p style={{color:'black'}}> Adventurous </p>
+            <p style={{color:'black'},{fontSize:'17px'}}> Adventurous </p>
             </div>
           );
         }
@@ -53,7 +53,7 @@ class Bo1 extends React.Component {
         render() {
               return (
                 <div style={{backgroundColor:'purple'}}className="box">
-              <p style={{color:'black'}}> Happy </p>
+              <p style={{color:'black'},{fontSize:'17px'}}> Happy </p>
               </div>
             );
           }
