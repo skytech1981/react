@@ -1,48 +1,96 @@
 class App extends React.Component {
   render() {
+
     return (
       <div>
-        <Box />
+        <Bo1 />
+        <Bo2 />
+        <Bo3 />
+        <Bo4 />
             </div>
     );
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-class Box extends React.Component {
+class Bo1 extends React.Component {
   render() {
-    return (
-      <div>
-        <div className="box">
-          <div className="box2">
-            <p>hello</p>
-          </div>
-          <div className="box3">
-            <p>there</p>
-          </div>
-          <button type="button">click here</button>
-        </div>
-      </div>
-    );
+    
+    
+
+
+        return (
+          <div style={{backgroundColor:'lightgreen'}}className="box">
+            <p style={{color:'black'}}> Fresh </p>
+            </div>
+      );
+    }
   }
-}
+  
+
+
+
+  class Bo2 extends React.Component {
+    render() {
+          return (
+            <div style={{backgroundColor:'lightblue'}}className="box">
+            <p style={{color:'black'}}> Calm </p>
+            </div>
+        );
+      }
+    }
+
+    class Bo3 extends React.Component {
+      render() {
+            return (
+              <div style={{backgroundColor:'lightpink'}}className="box">
+            <p style={{color:'black'}}> Adventurous </p>
+            </div>
+          );
+        }
+      }
+
+      class Bo4 extends React.Component {
+        render() {
+              return (
+                <div style={{backgroundColor:'purple'}}className="box">
+              <p style={{color:'black'}}> Happy </p>
+              </div>
+            );
+          }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// class Box extends React.Component {
+//   render() {
+//     return (
+//       <div>
+//         <div className="box">
+//           <div className="box2">
+//             <p>hello</p>
+//           </div>
+//           <div className="box3">
+//             <p>there</p>
+//           </div>
+//           <button type="button">click here</button>
+//         </div>
+//       </div>
+//     );
+//   }
+// }
 
 
 // class Starex5 extends React.Component {
