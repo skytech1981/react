@@ -3,6 +3,7 @@ class App extends React.Component {
     return (
       <div>
         <Box />
+        <Box />
         <Starex5 />
       </div>
     );
