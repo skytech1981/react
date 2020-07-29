@@ -3,28 +3,28 @@ class App extends React.Component {
     return (
       <div>
         <Box />
-        <Box />
+        <App2 />
         <Starex5 />
       </div>
     );
   }
 }
 
-// // Exercise 1 React Class render
-// class App2 extends React.Component {
-//   render() {
-//     return (
-//       <div>
-//         <ul>
-//           <li>first</li> 
-//           <li>second</li>
-//           <li>third</li>
-//           <li>fourth</li>
-//         </ul>
-//       </div>
-//     );
-//   }
-// }
+// Exercise 1 React Class render
+class App2 extends React.Component {
+  render() {
+    return (
+      <div>
+        <ul>
+          <li>first</li> 
+          <li>second</li>
+          <li>third</li>
+          <li>fourth</li>
+        </ul>
+      </div>
+    );
+  }
+}
 
 // class Box extends React.Component {
 //   render() {
