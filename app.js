@@ -3,8 +3,8 @@ class App extends React.Component {
     return (
       <div>
         <Box />
-        <App2 />
-        <Starex5 />
+      
+       
       </div>
     );
   }
